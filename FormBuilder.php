@@ -184,7 +184,7 @@ class FormBuilder extends Widget {
      * @param string Json form
      * @return array Return table shema
     */
-    public function tableSchema($form_body) 
+    public static function tableSchema($form_body) 
     {
         if (!is_string($form_body)) {
             return false;
