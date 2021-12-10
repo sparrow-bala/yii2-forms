@@ -11,6 +11,7 @@
 			<option value="tel"><?= Yii::t('builder', 'phone') ?></option>
 			<option value="color"><?= Yii::t('builder', 'color') ?></option>
 			<option value="range"><?= Yii::t('builder', 'range') ?></option>
+			<option value="file"><?= Yii::t('builder','file') ?></option>
 		</select>
     </div>
 </div>
