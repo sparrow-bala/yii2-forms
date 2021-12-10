@@ -88,7 +88,7 @@ class FormBase {
      * @param array $field Data one field.
      * @return null|string 
     */ 
-    public function getColumnType($field){
+    public static function getColumnType($field){
 
     	if (!ArrayHelper::keyExists('field', $field)){
     		return null;
@@ -106,6 +106,7 @@ class FormBase {
 		            'color' =>  'string',
 		            'range' =>  'string',
 		            'url' =>    'string',
+			    'file' => 'string',
 				],
 				'textarea' =>   'text',
 				'checkbox' =>   'string',
